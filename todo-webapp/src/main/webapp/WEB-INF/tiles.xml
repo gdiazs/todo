@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- Layout por defecto -->
+	<definition name="layout.default" template="/views/layouts/default/default-layout.jsp">
+	
+		<put-attribute name="common.styles"
+			value="/views/layouts/common/common-styles.jsp" />
+			
+		<put-attribute name="default.styles"
+			value="/views/layouts/default/default-styles.jsp" />
+
+		<put-attribute name="common.scripts" value="/views/layouts/common/common-scripts.jsp" />
+
+		<put-attribute name="default.scripts"
+			value="/views/layouts/default/default-scripts.jsp" />
+
+	</definition>
+</tiles-definitions>
